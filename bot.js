@@ -342,4 +342,8 @@ client.on('message', message => {
     }
 });
 
+client.user.setGame(`3imad'#2420`,'https://www.twitch.tv/MeeRcY')
+    }
+});
+
 client.login(process.env.BOT_TOKEN);
